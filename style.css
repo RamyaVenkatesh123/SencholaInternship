@@ -1,0 +1,110 @@
+    :root{
+        --blue:#0D1282;
+        --red:#D71313;
+        --green:green;
+        --yellow:yellow;
+    }
+    
+    body,h2{
+        margin: 0;
+        font-family:'Times New Roman', Times, serif;
+    }
+    .landing{
+        background-image: url(cake.jpg);
+        background-size: cover;
+        background-position:center;
+        height: 100vh;
+    }
+    header a{
+        text-decoration: none;
+        color:var(--blue) ;
+    }
+    header{
+        display: flex;
+        padding: 1.25em;
+    }
+    #logo{
+        flex: 3;
+    }
+    nav{
+        flex: 2;
+        display: flex;
+    }
+    nav a{
+        flex: 1;
+    }
+    nav a:hover{
+        color: var(--green);
+    }
+    .maintext{
+        display: flex;
+        flex-direction: column;
+        height: 50vh;
+        justify-content: center;
+        padding: 2em;
+    }
+    .tagline1{
+        color: var(--blue);
+        font-size: 2.5em;
+        font-weight: bolder;
+    }
+    .tagline2{
+        color: var(--red);
+    }
+    .maintext div{
+        margin-top: 1em;
+    }
+    .maintext button{
+        width: 20vw;
+        margin-top: 2em;
+        border-radius: 10px;
+        padding: .7em;
+        background-color: var(--green);
+        border: 1px solid var(--green);
+
+
+    }
+    .menu{
+        background: linear-gradient(to right, rgb(201,154, 170),rgb(231, 222, 225));
+    }
+    .des1{
+        display: flex;
+        flex: 1;
+       padding: 3em;
+        
+    }
+    .des2{
+        display: flex;
+        padding: 3em;
+        flex: 1;
+        padding-left: 250px;
+    }
+    .des3{
+        display: flex;
+        padding: 3em;
+        flex: 1;
+    }
+    .table{
+        padding: 5em;
+    }
+    img{
+        width: 300px;
+        height: 300px;
+        border-radius: 50px;
+        flex: 2;
+        align-items: center;
+    }
+    #menuheading{
+        background: linear-gradient(to right, rgb(201,154, 170),rgb(231, 222, 225));
+        font-size: 2.5em;
+        color: #0D1282;
+        justify-content: center;
+        display: flex;
+    }
+    .logo{
+    width: 5px;
+    height: 5px;
+   }
+        
+
+    
